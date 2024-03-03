@@ -67,8 +67,16 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
+  Feel free to <span className="purple">connect</span> with me @ 
+  
+  <a 
+    href="mailto:dhingramuskan2001@gmail.com"
+    style={{ textDecoration: 'none', color: 'inherit' }} // Optional: This will remove the underline and inherit text color
+  >
+    dhingramuskan2001@gmail.com
+  </a>
+</p>
+
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a

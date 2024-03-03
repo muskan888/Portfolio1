@@ -28,7 +28,7 @@ function Projects() {
               title="Connect Sphere"
               description="Dynamic communication platform that enables real-time video and voice calling, integrated with a chat feature for persistent messaging."
               ghLink="https://github.com/muskan888/ConnectSphere"
-              demoLink=""
+              demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
@@ -50,7 +50,7 @@ function Projects() {
               title="DocuMingle"
               description="A versatile online platform for document creation, editing, and collaboration, allowing multiple users to work on documents simultaneously."
               ghLink="https://github.com/muskan888/DocuMingle"
-              demoLink=""              
+              demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
 
