@@ -6,6 +6,7 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiFillYoutube,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -19,37 +20,41 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+            <b className="purple">  Education:</b>
+           
+            <br></br>
+🎓 Indiana University Bloomington - Master's in Computer Science, CGPA: 3.8/4!
+<br></br>
+🎓 Vellore Institute of Technology - Bachelor's in Computer Science, CGPA: 3.9/4!
               <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C++, Javascript and Go. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              <br></br>
+              <b className="purple">  Work Experience:</b>
+<br/>
+              <b className="purple">  Microsoft - </b> 
+  Did some cool stuff as a Software Development Intern (Aug 2023 - May 2025) in Karnataka, India. Enhanced Microsoft Teams and boosted efficiency by 10%! Dabbled in TypeScript, React.js, GraphQL, Angular, and Azure.
+<br/>
+<br/>
+ <b className="purple">Pcc Softech Pvt. Ltd. - </b>  Worked as a Software Development Intern in Delhi (Aug 2021 - Jan 2022). Amped up <b className="purple">T-Mobile’s</b> portal and made data analysis a breeze for users.
+ <br/>     
+<br/>
+
+ <b className="purple">  Fun Fact:</b>
+<br/>
+🎥 I run a YouTube channel called Tech Wizard where I unravel coding mysteries and share cool tech stuff.
+<ul className="home-about-social-links">
+ <li className="social-icons">
+                <a
+                  href="https://www.youtube.com/channel/UCqEXx97n0Z7_dU_qhsfNdAA"
+                  target="_blank"
+                  rel="noreferrer"
+                
+                >
+                  <AiFillYoutube />
+                </a>
+              </li>
+
+  </ul>  
+ 
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -67,7 +72,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/muskan888?tab=repositories"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -75,19 +80,11 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
+              
+           
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/muskandhingra/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,12 +94,12 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.youtube.com/channel/UCqEXx97n0Z7_dU_qhsfNdAA"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <AiFillInstagram />
+                  <AiFillYoutube />
                 </a>
               </li>
             </ul>
