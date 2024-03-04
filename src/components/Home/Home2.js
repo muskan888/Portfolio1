@@ -1,6 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
+import mslogo from "../../Assets/mslogo.png";
+import pcclogo from "../../Assets/pccloo.jpeg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -28,14 +30,19 @@ function Home2() {
 🎓 Vellore Institute of Technology - Bachelor's in Computer Science, CGPA: 3.9/4!
               <br />
               <br></br>
-              <b className="purple">  Work Experience:</b>
+              <b className="purple">Work Experience:</b>
 <br/>
-              <b className="purple">  Microsoft - </b> 
-  Did some cool stuff as a Software Development Intern (Aug 2023 - May 2025) in Karnataka, India. Enhanced Microsoft Teams and boosted efficiency by 10%! Dabbled in TypeScript, React.js, GraphQL, Angular, and Azure.
+
+<img src={mslogo} alt="Microsoft Logo" style={{ width: '18px', height: '18px', verticalAlign: 'middle' }} />
+
+<b className="purple">  Microsoft - </b>
+Did some cool stuff as a Software Development Intern (Aug 2023 - May 2025) in Karnataka, India. Enhanced Microsoft Teams and boosted efficiency by 10%! Dabbled in TypeScript, React.js, GraphQL, Angular, and Azure.
 <br/>
 <br/>
- <b className="purple">Pcc Softech Pvt. Ltd. - </b>  Worked as a Software Development Intern in Delhi (Aug 2021 - Jan 2022). Amped up <b className="purple">T-Mobile’s</b> portal and made data analysis a breeze for users.
- <br/>     
+<img src={pcclogo} alt="PCC Logo" style={{ width: '20px', height: '20px', verticalAlign: 'middle' }} />
+
+<b className="purple"> Pcc Softech Pvt. Ltd. - </b> Worked as a Software Development Intern in Delhi (Aug 2021 - Jan 2022). Amped up <b className="purple">T-Mobile’s</b> portal and made data analysis a breeze for users.
+<br/>
 <br/>
 
  <b className="purple">  Fun Fact:</b>
@@ -67,8 +74,16 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
+  Feel free to <span className="purple">connect</span> with me @ 
+  
+  <a 
+    href="mailto:dhingramuskan2001@gmail.com"
+    style={{ textDecoration: 'none', color: 'inherit' }} // Optional: This will remove the underline and inherit text color
+  >
+    dhingramuskan2001@gmail.com
+  </a>
+</p>
+
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
@@ -110,3 +125,4 @@ function Home2() {
   );
 }
 export default Home2;
+
