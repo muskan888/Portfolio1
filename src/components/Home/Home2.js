@@ -32,8 +32,11 @@ function Home2() {
               <br></br>
               <b className="purple">Work Experience:</b>
 <br/>
-              <b className="purple">  Microsoft - </b> 
-  Did some cool stuff as a Software Development Intern (May 2022-August 2022) in Karnataka, India. Enhanced Microsoft Teams and boosted efficiency by 10%! Dabbled in TypeScript, React.js, GraphQL, Angular, and Azure.
+
+<img src={mslogo} alt="Microsoft Logo" style={{ width: '18px', height: '18px', verticalAlign: 'middle' }} />
+
+<b className="purple">  Microsoft - </b>
+Did some cool stuff as a Software Development Intern (May 2022-August 2002) in Karnataka, India. Enhanced Microsoft Teams and boosted efficiency by 10%! Dabbled in TypeScript, React.js, GraphQL, Angular, and Azure.
 <br/>
 <br/>
 <img src={pcclogo} alt="PCC Logo" style={{ width: '20px', height: '20px', verticalAlign: 'middle' }} />
@@ -122,4 +125,3 @@ function Home2() {
   );
 }
 export default Home2;
-
