@@ -7,7 +7,7 @@ import student from "../../Assets/Projects/student.png";
 import explorehub from "../../Assets/Projects/explorehub.png";
 import connectsphere from "../../Assets/Projects/connectsphere.png";
 import documingle from "../../Assets/Projects/documingle.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import chatneuron from "../../Assets/Projects/chatneuron.png";
 
 function Projects() {
   return (
@@ -21,7 +21,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatneuron}
+              isBlog={false}
+              title="Enhanced Chatgpt-chatNeuron"
+              description="A better version of chat gpt!, Ask anything and get better reponses than chatGpt.With ChatNeuron, Users have the flexibility to choose from various OpenAI models, enabling fine-tuned conversations based on different model strengths and capabilities."
+              ghLink="https://github.com/muskan888/chatNeuron-enhanced-ChatGpt-"
+              demoLink="https://github.com/muskan888/chatNeuron-enhanced-ChatGpt-"
+            />
+          </Col>
+        <Col md={4} className="project-card">
             <ProjectCard
               imgPath={connectsphere}
               isBlog={false}
@@ -31,6 +41,8 @@ function Projects() {
               demoLink="https://chatify-49.web.app/"
             />
           </Col>
+
+
 
           <Col md={4} className="project-card">
             <ProjectCard
