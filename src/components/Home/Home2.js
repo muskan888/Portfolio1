@@ -36,12 +36,45 @@ function Home2() {
 <img src={mslogo} alt="Microsoft Logo" style={{ width: '18px', height: '18px', verticalAlign: 'middle' }} />
 
 <b className="purple">  Microsoft - </b>
-Did some cool stuff as a Software Development Intern (May 2022-August 2022) in Karnataka, India. Enhanced Microsoft Teams and boosted efficiency by 10%! Dabbled in TypeScript, React.js, GraphQL, Angular, and Azure.
+<br/>
+-Enhanced Microsoft Teams’ search bar by integrating secondary actions like pop-out chat and schedule a meeting, which led to a substantial 10% decrease in Time-to-Success (TTS).
+<br/>
+
+-Developed the user interface components for secondary actions using React.js and TypeScript. This involved creating modular, reusable components that provided a responsive and intuitive user experience, leveraging TypeScript's static typing to ensure robust and maintainable code.
+<br/>
+
+-Utilized GraphQL to streamline data fetching and server communication. This allowed efficient querying of only the necessary data for the secondary actions, reducing network overhead and improving the performance and responsiveness of the features.
+<br/>
+
+-Deployed the features on Microsoft Azure, ensuring scalability and reliability.
+<br/>
+
+-Set up continuous integration and continuous deployment (CI/CD) pipelines using Azure DevOps, automating the build, test, and deployment processes to ensure smooth and consistent updates.
+<br/>
+
+-Configured the pipelines to automatically run unit tests and integration tests, ensuring that new code changes did not introduce any regressions.
 <br/>
 <br/>
 <img src={pcclogo} alt="PCC Logo" style={{ width: '20px', height: '20px', verticalAlign: 'middle' }} />
 
-<b className="purple"> Pcc Softech Pvt. Ltd. - </b> Worked as a Software Development Intern in Delhi (Aug 2021 - Jan 2022). Amped up <b className="purple">T-Mobile’s</b> portal and made data analysis a breeze for users.
+<b className="purple"> Pcc Softech Pvt. Ltd. - </b>
+<br/>
+
+- Optimized API latencies, reducing response times significantly, and revamped group pricing and combo strategies to resolve complex pricing and inventory challenges.
+<br/>
+
+- Developed an on-host proxy service using Golang, implementing rate-limiting and caching for ingress requests.
+<br/>
+
+- Worked in an agile environment, creating RFC documents, provisioning AWS resources through Terraform, handling authentication between AWS, Vault, and Lambda, writing scripts in GoLang on AWS Lambda, debugging network issues, modifying Atlantis configuration, and deploying solutions to staging and production environments.
+<br/>
+
+- Implemented a PostgreSQL adapter for the Utopia-PHP database library.
+<br/>
+
+- Implemented authentication-related tasks, limited failed attempts, allowed only public domains in webhook events, and performed bug fixes and performance enhancements.
+<br/>
+<br/>
 <br/>
 <br/>
 
