@@ -3,6 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import mslogo from "../../Assets/mslogo.png";
 import pcclogo from "../../Assets/pccloo.jpeg";
+import sensilogo from "../../Assets/sensitek.jpeg";
+
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -32,10 +34,18 @@ function Home2() {
               <br></br>
               <b className="purple">Work Experience:</b>
 <br/>
+<img src={sensilogo} alt="Sensitek Logo" style={{ width: '18px', height: '18px', verticalAlign: 'middle' }} />
+<b className="purple">  Sensitek (New York, United States) - </b>
+<br/>
+Working on the T-Mobile Return Portal, I am developing robust APIs for dealers to efficiently check and manage orders.
+<br/>
+
+
+<br/>
 
 <img src={mslogo} alt="Microsoft Logo" style={{ width: '18px', height: '18px', verticalAlign: 'middle' }} />
 
-<b className="purple">  Microsoft - </b>
+<b className="purple">  Microsoft (Karnataka, India)- </b>
 <br/>
 -Enhanced Microsoft Teams’ search bar by integrating secondary actions like pop-out chat and schedule a meeting, which led to a substantial 10% decrease in Time-to-Success (TTS).
 <br/>
@@ -57,7 +67,7 @@ function Home2() {
 <br/>
 <img src={pcclogo} alt="PCC Logo" style={{ width: '20px', height: '20px', verticalAlign: 'middle' }} />
 
-<b className="purple"> Pcc Softech Pvt. Ltd. - </b>
+<b className="purple"> Pcc Softech Pvt. Ltd. (Delhi, India) - </b>
 <br/>
 
 - Optimized API latencies, reducing response times significantly, and revamped group pricing and combo strategies to resolve complex pricing and inventory challenges.
